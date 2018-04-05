@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_barrier",
     "eventList": [
-        
+        {
+            "id": "532874b5-c076-42bb-9d84-f67e80a4466d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c3bb1e8c-38b3-4fba-9e1a-b5fcb472223e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "9ebceb87-f83a-416f-b7cb-61e76db5b4af",
     "visible": true
 }
