@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "b6737f35-27fc-4985-9738-5dc72bc64fcf",
+            "Value": {
+                "id": "62d6418d-1b37-4c96-a69c-d7e97dc7d4bf",
+                "resourcePath": "rooms\\room_underground\\room_underground.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "bcbead6e-2b94-4890-94d7-58fef03e32c4",
             "Value": {
                 "id": "3a088f58-26a0-4d1f-b170-cb340f84d3c5",
