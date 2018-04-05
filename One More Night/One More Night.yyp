@@ -186,7 +186,7 @@
             "Key": "5e419e81-d7f7-49cf-84bd-fb080304cebd",
             "Value": {
                 "id": "a4d78d70-bced-43d4-934c-a6812c1c626f",
-                "resourcePath": "objects\\object3\\object3.yy",
+                "resourcePath": "objects\\obj_laser\\obj_laser.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -300,6 +300,14 @@
                 "id": "07abc2f2-9a18-4bb9-99c0-d48aa2426cce",
                 "resourcePath": "sprites\\spr_sniperTower\\spr_sniperTower.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "982522ab-0215-41f8-9138-7527c5f438b9",
+            "Value": {
+                "id": "6b6840ae-6580-487d-944a-40e65cba51cf",
+                "resourcePath": "objects\\obj_goo\\obj_goo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
