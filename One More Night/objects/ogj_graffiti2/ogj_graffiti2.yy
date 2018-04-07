@@ -1,8 +1,8 @@
 {
-    "id": "85bf6257-e860-4b05-8f35-cb5f5b9f3f26",
+    "id": "6f5d0fe4-5ca2-4877-8fbe-7a07a288b799",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_border",
+    "name": "ogj_graffiti2",
     "eventList": [
         
     ],
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": false
+    "solid": false,
+    "spriteId": "2b87cdaa-1aa5-4fc0-b963-6be8b832a03e",
+    "visible": true
 }
