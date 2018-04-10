@@ -1,14 +1,14 @@
 {
-    "id": "251786c9-9ce9-4d57-89cd-7192cf27fbbe",
+    "id": "69656c27-0e99-45f5-80ac-fe4697f9a799",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_meathead1",
+    "name": "obj_tower1C",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "cf8d43f7-c050-4386-8c9b-a6eb24e229e4",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f6ec41d0-edeb-4ee3-a68b-7a88bfbafa06",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

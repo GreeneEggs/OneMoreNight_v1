@@ -1,4 +1,4 @@
-if (canattack == true) {mp_potential_step(obj_main.x, obj_main.y, 2.5, false);}
+if (canattack == true) {mp_potential_step(obj_vault.x, obj_vault.y, .75, false);}
 
 if (place_meeting(x,y,obj_bullet))
 {
@@ -20,7 +20,7 @@ if (bounce == 1)
 	bounce = 0;
 	canattack = false;
 }
-if (hitcount == 2)
+if (hitcount == 3)
 {
 	instance_destroy();
 }
