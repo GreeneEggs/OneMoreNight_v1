@@ -1,14 +1,14 @@
 {
-    "id": "a953cad9-b88d-42a6-b749-1acebdddb7ac",
+    "id": "c3c433de-9020-41ff-a3fe-3827292b0c05",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sniper",
+    "name": "obj_towerbase",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "c3c433de-9020-41ff-a3fe-3827292b0c05",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "911251df-acfb-444c-977b-dd0c1a158447",
+    "spriteId": "35bc41ed-c5d6-4e50-9895-540867d6af72",
     "visible": true
 }
