@@ -1,13 +1,13 @@
-if (keyboard_check(ord("W")) && keyboard_check(ord("A")) &&!place_meeting(x,y,obj_border)) {movespeed = 4;}
-else if (keyboard_check(ord("W")) && keyboard_check(ord("D")) &&!place_meeting(x,y,obj_border)) {movespeed = 4;}
-else if (keyboard_check(ord("S")) && keyboard_check(ord("A")) &&!place_meeting(x,y,obj_border)) {movespeed = 4;}
-else if (keyboard_check(ord("S")) && keyboard_check(ord("D")) &&  !place_meeting(x,y,obj_border)) {movespeed = 4;}
+if (keyboard_check(ord("W")) && keyboard_check(ord("A"))) {movespeed = 4;}
+else if (keyboard_check(ord("W")) && keyboard_check(ord("D"))) {movespeed = 4;}
+else if (keyboard_check(ord("S")) && keyboard_check(ord("A"))) {movespeed = 4;}
+else if (keyboard_check(ord("S")) && keyboard_check(ord("D"))) {movespeed = 4;}
 else {movespeed = 5;}
 
 if (keyboard_check(ord("W")) && !place_meeting(x,y,obj_border))	{y -= movespeed;}
 if (keyboard_check(ord("S")) && !place_meeting(x,y,obj_border))	{y += movespeed;}
-if (keyboard_check(ord("A")) && !place_meeting(x,y,obj_border))	{x -= movespeed;}
-if (keyboard_check(ord("D")) && !place_meeting(x,y,obj_border))	{x += movespeed;}
+if (keyboard_check(ord("A")) && !place_meeting(x+10,y,obj_border))	{x -= movespeed;}
+if (keyboard_check(ord("D")) && !place_meeting(x-10,y,obj_border))	{x += movespeed;}
 
 
 //Bullet Firing For Regular Gun (slingshot?)
@@ -17,6 +17,7 @@ if(keyboard_check(vk_up))
 	if (firing == false)
 	{
 	global.dir = 90;
+	instance_create_depth(x, y, 1, obj_bullet);
 	firing = true; 
 	alarm[0] = 20;
 	}
@@ -26,6 +27,7 @@ if(keyboard_check(vk_left))
 	if (firing == false)
 	{
 	global.dir = 180;
+	instance_create_depth(x, y, 1, obj_bullet);
 	firing = true; 
 	alarm[0] = 20;
 	}
@@ -35,8 +37,9 @@ if(keyboard_check(vk_right))
 	if (firing == false)
 	{
 	global.dir = 0;
+	instance_create_depth(x, y, 1, obj_bullet);
 	firing = true; 
-	alarm[0] = 20;
+	alarm[0] = 10;
 	}
 }
 if(keyboard_check(vk_down))
@@ -44,6 +47,7 @@ if(keyboard_check(vk_down))
 	if (firing == false)
 	{
 	global.dir = 270;
+	instance_create_depth(x, y, 1, obj_bullet);
 	firing = true; 
 	alarm[0] = 20;
 	}
