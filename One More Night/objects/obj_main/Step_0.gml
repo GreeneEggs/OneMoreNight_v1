@@ -4,10 +4,10 @@ else if (keyboard_check(ord("S")) && keyboard_check(ord("A"))) {movespeed = 4;}
 else if (keyboard_check(ord("S")) && keyboard_check(ord("D"))) {movespeed = 4;}
 else {movespeed = 5;}
 
-if (keyboard_check(ord("W")) && !place_meeting(x,y,obj_border))	{y -= movespeed;}
-if (keyboard_check(ord("S")) && !place_meeting(x,y,obj_border))	{y += movespeed;}
-if (keyboard_check(ord("A")) && !place_meeting(x+10,y,obj_border))	{x -= movespeed;}
-if (keyboard_check(ord("D")) && !place_meeting(x-10,y,obj_border))	{x += movespeed;}
+if (keyboard_check(ord("W")) && !position_meeting(x,y-15,obj_border))	{y -= movespeed;}
+if (keyboard_check(ord("S")) && !position_meeting(x,y+15,obj_border))	{y += movespeed;}
+if (keyboard_check(ord("A")) && !position_meeting(x-12,y,obj_border))	{x -= movespeed;}
+if (keyboard_check(ord("D")) && !position_meeting(x+12,y,obj_border))	{x += movespeed;}
 
 
 //Bullet Firing For Regular Gun (slingshot?)
