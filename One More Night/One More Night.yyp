@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "60ca392c-d862-4c7b-a871-5ee3a1a0853e",
+            "Value": {
+                "id": "a6ba45c0-0c8a-4b5e-ad6c-5d3a60b561bf",
+                "resourcePath": "views\\60ca392c-d862-4c7b-a871-5ee3a1a0853e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "68858947-6d60-44e4-8f97-980269fc43ab",
             "Value": {
                 "id": "3481b811-7558-44eb-9fd0-d4f722254266",
@@ -471,6 +479,14 @@
             }
         },
         {
+            "Key": "87c35604-ae98-48cb-9f40-0a0397124e8a",
+            "Value": {
+                "id": "ac5b7b7d-bafa-43eb-8084-a8781c359bbb",
+                "resourcePath": "sprites\\spr_title_star\\spr_title_star.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "886a301f-9a3e-4ca5-bdd9-06c75ac75d44",
             "Value": {
                 "id": "546274e2-52b6-4b00-ab3e-2edfe56226a6",
@@ -500,6 +516,14 @@
                 "id": "52fb0fd0-a120-47ca-a193-22477d2e3672",
                 "resourcePath": "views\\8d2e086b-eb2d-4d5a-afcd-b819b386f37d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8f677d1d-65fb-4e12-a055-48167b009612",
+            "Value": {
+                "id": "35b4be51-19f3-48e2-8d37-78447c32154c",
+                "resourcePath": "sprites\\spr_titleBackground\\spr_titleBackground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -548,6 +572,14 @@
                 "id": "1c2630a4-8986-4dfb-af97-2129d710d43e",
                 "resourcePath": "sprites\\spr_emptyBarricade_h\\spr_emptyBarricade_h.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a3dfb7bc-55a2-4a0b-aecb-84e7cb8a78d1",
+            "Value": {
+                "id": "2ca94edf-8218-4287-be14-8274d89e27d8",
+                "resourcePath": "rooms\\title_rm\\title_rm.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
