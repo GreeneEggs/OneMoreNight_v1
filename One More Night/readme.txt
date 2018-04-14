@@ -19,3 +19,7 @@ Right Arrow:Fire Weapon Right
 
 Drag and Drop towers using the left mouse button.
 Drop selected tower onto the tower stands to place defences.
+
+Cheat:
+
+Restart Game: R
