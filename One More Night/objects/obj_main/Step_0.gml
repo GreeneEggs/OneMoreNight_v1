@@ -4,7 +4,7 @@ else if (keyboard_check(ord("S")) && keyboard_check(ord("A"))) {movespeed = 3;}
 else if (keyboard_check(ord("S")) && keyboard_check(ord("D"))) {movespeed = 3;}
 else {movespeed = 4;}
 
-if (keyboard_check(ord("W")))
+if (keyboard_check(ord("R")))
 	{room_restart()}
 
 if (keyboard_check(ord("W")) && !position_meeting(x,y-15,obj_border))	{y -= movespeed;}
