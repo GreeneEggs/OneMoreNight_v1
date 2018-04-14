@@ -1,4 +1,4 @@
-if (canattack == true) {mp_potential_step(obj_main.x, obj_main.y, 2.5, false);} //follow player until struck by bullet
+if (canattack == true) {mp_potential_step(obj_main.x, obj_main.y, 1, false);} //follow player until struck by bullet
 
 if (place_meeting(x,y,obj_bullet)) //When hit by bullet
 {
@@ -16,12 +16,12 @@ if (place_meeting(x,y,obj_bullet)) //When hit by bullet
 }
 if (bounce == 1)
 {
-	alarm[0] = 10;
+	alarm[0] = 5;
 	speed = 5;
 	bounce = 0;
 	canattack = false; //reset to follow player again
 }
-if (hitcount == 2)  //set hitcount; once it has been hit twice
+if (hitcount == 1)  //set hitcount; once it has been hit twice
 {
 	instance_destroy(); //destroy the object
 }

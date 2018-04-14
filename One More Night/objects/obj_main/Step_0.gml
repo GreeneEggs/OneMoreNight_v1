@@ -4,6 +4,9 @@ else if (keyboard_check(ord("S")) && keyboard_check(ord("A"))) {movespeed = 3;}
 else if (keyboard_check(ord("S")) && keyboard_check(ord("D"))) {movespeed = 3;}
 else {movespeed = 4;}
 
+if (keyboard_check(ord("W")))
+	{room_restart()}
+
 if (keyboard_check(ord("W")) && !position_meeting(x,y-15,obj_border))	{y -= movespeed;}
 if (keyboard_check(ord("S")) && !position_meeting(x,y+15,obj_border))	{y += movespeed;}
 if (keyboard_check(ord("A")) && !position_meeting(x-12,y,obj_border))	{x -= movespeed; facing=-1;}
@@ -62,7 +65,8 @@ if(place_meeting(x,y,obj_enemy) )
 	direction = point_direction(x,y,nearestenemy.x,nearestenemy.y)+180;
 	
 	bounce =1;
-	alarm[1] = 5;
+	alarm[1] = 7.5;
+	hit_count++;
 	
 }
 else if (place_meeting(x,y,obj_goo)) //bounce back for goo
@@ -78,6 +82,7 @@ else if (place_meeting(x,y,obj_goo)) //bounce back for goo
 	{
 		instance_destroy();
 	}
+	hit_count++;
 }
 if(bounce = 1) //set the speed of knockback and reset bounce
 {
@@ -85,7 +90,7 @@ if(bounce = 1) //set the speed of knockback and reset bounce
 	speed = 5;
 	bounce = 0;
 }
-
+if(hit_count >= 3) room_restart();
 
 
 

@@ -1,4 +1,4 @@
-if (canattack == true) {mp_potential_step(obj_main.x, obj_main.y, 1, false);}
+if (canattack == true) {mp_potential_step(obj_main.x, obj_main.y, .75, false);}
 
 if (place_meeting(x,y,obj_bullet))
 {
@@ -15,7 +15,7 @@ if (place_meeting(x,y,obj_bullet))
 }
 if (bounce == 1)
 {
-	alarm[1] = 10;
+	alarm[1] = 5;
 	speed = 5;
 	bounce = 0;
 	canattack = false;
@@ -27,6 +27,6 @@ if (hitcount == 3)
 if (firing == false)
 {
 	
-	alarm[0] = 40;
+	alarm[0] = 80;
 	firing = true;
 }
