@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "560c0137-47a1-4a8b-bc0e-ac976f628f8f",
+            "Value": {
+                "id": "ee80ed80-a049-478a-9e28-87bba57219a7",
+                "resourcePath": "sounds\\game_music\\game_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "56693233-a239-4388-8e6f-02422cb15f1d",
             "Value": {
                 "id": "a35710d0-248e-456f-b56f-31a9b485f426",
@@ -811,6 +819,14 @@
             "Value": {
                 "id": "b879b686-558f-4335-b281-d9005da8002d",
                 "resourcePath": "objects\\obj_spawn_lettuce\\obj_spawn_lettuce.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f32f171e-55bf-475d-a0e3-8e3af5e9a7d1",
+            "Value": {
+                "id": "2a0572b8-2017-4485-bac6-cfb4971238eb",
+                "resourcePath": "objects\\obj_music\\obj_music.yy",
                 "resourceType": "GMObject"
             }
         },
