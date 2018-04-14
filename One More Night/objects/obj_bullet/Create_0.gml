@@ -1,2 +1,2 @@
 direction = global.dir; 
-speed = 10;
+speed = 8;
