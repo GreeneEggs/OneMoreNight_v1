@@ -2,7 +2,7 @@
     "id": "f181aee8-7b9a-4493-93bd-443b74daee4f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "level_teleport",
+    "name": "obj_level_teleport",
     "eventList": [
         {
             "id": "f7c1026c-55f0-4fd1-b57f-7e828dcaeb2a",
