@@ -9,7 +9,13 @@
 /// @DnDVersion : 1
 /// @DnDHash : 286D3D22
 /// @DnDArgument : "imageind" "5"
-/// @DnDArgument : "spriteind" "spr_goosplosion"
-/// @DnDSaveInfo : "spriteind" "273e23a7-d812-4f48-badc-d993d88abb5c"
-sprite_index = spr_goosplosion;
+sprite_index = noone;
 image_index = 5;
+
+/// @DnDAction : YoYo Games.Instances.Change_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 7F41963F
+/// @DnDApplyTo : 8ea0432e-8718-4c04-a400-114ba5dc57d4
+/// @DnDArgument : "objind" "obj_contamination"
+/// @DnDSaveInfo : "objind" "7604a96c-efd1-451f-856d-e7d6abcde0d9"
+with(obj_earth) instance_change(obj_contamination, true);
