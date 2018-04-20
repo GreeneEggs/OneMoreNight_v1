@@ -13,3 +13,10 @@
 /// @DnDSaveInfo : "spriteind" "6cf29dfd-ea34-4b6e-a494-5b1c458aae96"
 sprite_index = spr_contamination;
 image_index = 5;
+
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDVersion : 1
+/// @DnDHash : 3ADDC9A3
+/// @DnDArgument : "room" "room_subway_cutscene"
+/// @DnDSaveInfo : "room" "a00ceff5-c98a-4314-bcdc-e6b8f773e55c"
+room_goto(room_subway_cutscene);
