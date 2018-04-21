@@ -17,7 +17,12 @@
         "af5b054e-a609-4df5-ada9-10a42d506afd",
         "4984a3de-36de-4a16-96b7-2c24d38c9805",
         "a3de6750-3136-414c-9aa3-6663e92a48de",
-        "2045c3e5-0b95-4313-8ef0-45f5afcb8080"
+        "2045c3e5-0b95-4313-8ef0-45f5afcb8080",
+        "a57d02e0-f287-4cde-96ab-f255bbe21749",
+        "ef05b1bc-6ca9-43c7-9386-126231ede1ae",
+        "e8697965-4dc8-4da3-a94e-184667814d20",
+        "8b937dc4-3245-425a-80e6-fc98a53ebbbe",
+        "9e0c4dfa-eae0-4195-a162-fb007f07d998"
     ],
     "filterType": "GMObject",
     "folderName": "Intro",
