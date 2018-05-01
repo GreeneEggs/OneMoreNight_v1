@@ -1,1 +1,1 @@
-move_towards_point(obj_main.x, obj_main.y, 5)
+move_towards_point(obj_main.x, obj_main.y, 2.5)

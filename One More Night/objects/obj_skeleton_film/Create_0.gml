@@ -3,4 +3,3 @@
 
 canattack = true;
 hitcount = 0;
-path_start(path1,2,0,1)

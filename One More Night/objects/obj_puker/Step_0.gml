@@ -27,6 +27,6 @@ if (hitcount == 3)
 if (firing == false)
 {
 	
-	alarm[0] = 80;
+	alarm[0] = 112.25;
 	firing = true;
 }
