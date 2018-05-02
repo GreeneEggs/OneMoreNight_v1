@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "2c0bda6d-0d4c-4263-86b1-58cc26f8d66e",
+            "Value": {
+                "id": "dbab61b0-0a48-4d29-a234-88351b6bb337",
+                "resourcePath": "objects\\obj_nightCycle\\obj_nightCycle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ebc09c0-c556-4a53-86c9-2768c4e3c3e2",
             "Value": {
                 "id": "f94e3747-557f-491b-bd49-eed83b0eb333",
