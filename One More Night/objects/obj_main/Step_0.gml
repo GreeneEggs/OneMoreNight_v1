@@ -7,10 +7,10 @@ else {movespeed = 4;}
 if (keyboard_check(ord("R")))
 	{room_restart()}
 
-if (keyboard_check(ord("W")) && !position_meeting(x,y-15,obj_border))	{y -= movespeed;}
-if (keyboard_check(ord("S")) && !position_meeting(x,y+15,obj_border))	{y += movespeed;}
-if (keyboard_check(ord("A")) && !position_meeting(x-12,y,obj_border))	{x -= movespeed; facing=-1;}
-if (keyboard_check(ord("D")) && !position_meeting(x+12,y,obj_border))	{x += movespeed;facing=1;}
+if (keyboard_check(ord("W")) && !position_meeting(x,y-15,obj_border))	{y -= movespeed;if(!firing)sprite_index = spr_player_back; }
+if (keyboard_check(ord("S")) && !position_meeting(x,y+15,obj_border))	{y += movespeed;if(!firing)sprite_index = spr_player_front;}
+if (keyboard_check(ord("A")) && !position_meeting(x-12,y,obj_border))	{x -= movespeed;if(!firing) facing=1;}
+if (keyboard_check(ord("D")) && !position_meeting(x+12,y,obj_border))	{x += movespeed;if(!firing)facing=-1;}
 
 
 //Bullet Firing For Regular Gun (slingshot?)
@@ -23,6 +23,7 @@ if(keyboard_check(vk_up))
 	instance_create_depth(x, y, 1, obj_bullet);
 	firing = true; 
 	alarm[0] = 25;
+	sprite_index = spr_player_back;
 	}
 }
 if(keyboard_check(vk_left))
@@ -33,6 +34,7 @@ if(keyboard_check(vk_left))
 	instance_create_depth(x, y, 1, obj_bullet);
 	firing = true; 
 	alarm[0] = 25;
+	facing = 1;
 	}
 }
 if(keyboard_check(vk_right))
@@ -43,6 +45,7 @@ if(keyboard_check(vk_right))
 	instance_create_depth(x, y, 1, obj_bullet);
 	firing = true; 
 	alarm[0] = 25;
+	facing = -1;
 	}
 }
 if(keyboard_check(vk_down))
@@ -53,6 +56,7 @@ if(keyboard_check(vk_down))
 	instance_create_depth(x, y, 1, obj_bullet);
 	firing = true; 
 	alarm[0] = 25;
+	sprite_index = spr_player_front;
 	}
 }
 //Bounce Back when colliding with enemy
