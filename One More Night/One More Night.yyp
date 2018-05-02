@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "4b44e6c6-2f7f-4714-9c67-d8d27a2f06ef",
+            "Value": {
+                "id": "4b8a640e-2934-436e-992f-6dc646b40af7",
+                "resourcePath": "objects\\obj_whitespace\\obj_whitespace.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4d61c66d-fec3-4cad-8673-f8fd41520234",
             "Value": {
                 "id": "3071c804-08e4-4cdb-9a69-ad51cfec4e37",
@@ -503,11 +511,27 @@
             }
         },
         {
+            "Key": "66c2ec30-fbe6-458b-8c2c-9e5ee626294d",
+            "Value": {
+                "id": "fe2d1ca7-84f3-41b2-8585-e07939d62b48",
+                "resourcePath": "objects\\obj_barbD\\obj_barbD.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "68858947-6d60-44e4-8f97-980269fc43ab",
             "Value": {
                 "id": "3481b811-7558-44eb-9fd0-d4f722254266",
                 "resourcePath": "objects\\obj_meathead\\obj_meathead.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "68dff7c6-14eb-4e59-aeaf-8996baeab207",
+            "Value": {
+                "id": "a4556535-061d-4cc7-96a1-6f062ecadf1e",
+                "resourcePath": "sprites\\spr_barb_live\\spr_barb_live.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1124,6 +1148,22 @@
                 "id": "50645bdd-0314-4939-9845-c75f02d7cc84",
                 "resourcePath": "views\\d1f6e335-da04-4221-bdb0-da72371af5f9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d2fcfe45-82dd-45d4-8fb3-56b9cd3a6e20",
+            "Value": {
+                "id": "4f44c8cc-cc76-4f47-8737-12fecbba1a8a",
+                "resourcePath": "objects\\obj_barbC\\obj_barbC.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d525a9ff-892c-40eb-bfb6-d8a4713db810",
+            "Value": {
+                "id": "8e3fd0c2-6bab-467d-af2f-4154b88c99ee",
+                "resourcePath": "sprites\\whitespace\\whitespace.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

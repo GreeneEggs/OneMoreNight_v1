@@ -14,8 +14,13 @@ if (place_meeting(x,y,obj_bullet))
 		global.coins += 500;
 	}
 }
-
-if (hitcount == 2)
+if (place_meeting(x,y,obj_barb))
+{
+	direction = point_direction(x,y,obj_barb.x,obj_barb.y) + 180;
+	bounce =1;
+	hitcount+=1;
+}
+if (hitcount == 1)
 {
 	instance_destroy();
 }

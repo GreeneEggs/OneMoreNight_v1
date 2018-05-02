@@ -14,7 +14,7 @@ if (keyboard_check(ord("D")) && !position_meeting(x+12,y,obj_border))	{x += move
 
 
 //Bullet Firing For Regular Gun (slingshot?)
-if(keyboard_check(vk_up))
+if(keyboard_check(vk_up) && gunType == 0)
 {
 	
 	if (firing == false)
@@ -25,7 +25,7 @@ if(keyboard_check(vk_up))
 	alarm[0] = 25;
 	}
 }
-if(keyboard_check(vk_left))
+if(keyboard_check(vk_left)&& gunType == 0)
 {
 	if (firing == false)
 	{
@@ -35,7 +35,7 @@ if(keyboard_check(vk_left))
 	alarm[0] = 25;
 	}
 }
-if(keyboard_check(vk_right))
+if(keyboard_check(vk_right)&& gunType == 0)
 {
 	if (firing == false)
 	{
@@ -45,7 +45,7 @@ if(keyboard_check(vk_right))
 	alarm[0] = 25;
 	}
 }
-if(keyboard_check(vk_down))
+if(keyboard_check(vk_down)&& gunType == 0)
 {
 	if (firing == false)
 	{
