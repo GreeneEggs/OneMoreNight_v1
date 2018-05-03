@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "251595a6-89a8-47bb-86e3-bdecb469ddbf",
+            "Value": {
+                "id": "8b183766-ab29-42bc-ab07-e218e61dab75",
+                "resourcePath": "shaders\\shd_night\\shd_night.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "2629d35b-ab51-477e-9698-a05875289886",
             "Value": {
                 "id": "ffc6b891-1a25-4bbe-a635-1681e70bd393",
@@ -292,6 +300,14 @@
                 "id": "03524298-ebc4-40fe-8597-31e550d14552",
                 "resourcePath": "sprites\\spr_barb_h\\spr_barb_h.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2c0bda6d-0d4c-4263-86b1-58cc26f8d66e",
+            "Value": {
+                "id": "dbab61b0-0a48-4d29-a234-88351b6bb337",
+                "resourcePath": "objects\\obj_nightCycle\\obj_nightCycle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
