@@ -14,9 +14,9 @@
 sprite_index = spr_contamination;
 image_index = 5;
 
-/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 3ADDC9A3
-/// @DnDArgument : "room" "room_subway_cutscene"
-/// @DnDSaveInfo : "room" "a00ceff5-c98a-4314-bcdc-e6b8f773e55c"
-room_goto(room_subway_cutscene);
+/// @DnDHash : 14FB25AB
+/// @DnDArgument : "objectid" "obj_fadeOut"
+/// @DnDSaveInfo : "objectid" "b16b7370-677a-4bff-a10b-a390f3eedc13"
+instance_create_layer(0, 0, "Instances", obj_fadeOut);

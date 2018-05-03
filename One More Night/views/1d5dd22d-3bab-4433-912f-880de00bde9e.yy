@@ -22,7 +22,8 @@
         "ef05b1bc-6ca9-43c7-9386-126231ede1ae",
         "e8697965-4dc8-4da3-a94e-184667814d20",
         "8b937dc4-3245-425a-80e6-fc98a53ebbbe",
-        "9e0c4dfa-eae0-4195-a162-fb007f07d998"
+        "9e0c4dfa-eae0-4195-a162-fb007f07d998",
+        "8a00ca14-81f5-4941-8d0b-2e870c674ade"
     ],
     "filterType": "GMObject",
     "folderName": "Intro",

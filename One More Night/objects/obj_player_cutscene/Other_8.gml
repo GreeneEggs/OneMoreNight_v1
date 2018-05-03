@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_goto(room_subway);
+//instance_create_depth(obj_fadeOut,0,0,1);
+room_goto_next();
