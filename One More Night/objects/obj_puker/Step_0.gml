@@ -11,6 +11,7 @@ if (place_meeting(x,y,obj_bullet))
 	with(nearestbullet)
 	{
 		instance_destroy();
+		
 	}
 }
 if (bounce == 1)
@@ -23,10 +24,11 @@ if (bounce == 1)
 if (hitcount == 3)
 {
 	instance_destroy();
+	global.coins += 20;
 }
 if (firing == false)
 {
 	
-	alarm[0] = 80;
+	alarm[0] = 112.25;
 	firing = true;
 }

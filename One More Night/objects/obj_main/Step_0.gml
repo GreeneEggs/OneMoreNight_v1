@@ -14,7 +14,7 @@ if (keyboard_check(ord("D")) && !position_meeting(x+12,y,obj_border))	{x += move
 
 
 //Bullet Firing For Regular Gun (slingshot?)
-if(keyboard_check(vk_up))
+if(keyboard_check(vk_up) && gunType == 0)
 {
 	
 	if (firing == false)
@@ -26,7 +26,7 @@ if(keyboard_check(vk_up))
 	sprite_index = spr_player_back;
 	}
 }
-if(keyboard_check(vk_left))
+if(keyboard_check(vk_left)&& gunType == 0)
 {
 	if (firing == false)
 	{
@@ -37,7 +37,7 @@ if(keyboard_check(vk_left))
 	facing = 1;
 	}
 }
-if(keyboard_check(vk_right))
+if(keyboard_check(vk_right)&& gunType == 0)
 {
 	if (firing == false)
 	{
@@ -48,7 +48,7 @@ if(keyboard_check(vk_right))
 	facing = -1;
 	}
 }
-if(keyboard_check(vk_down))
+if(keyboard_check(vk_down)&& gunType == 0)
 {
 	if (firing == false)
 	{
@@ -69,8 +69,8 @@ if(place_meeting(x,y,obj_enemy) )
 	direction = point_direction(x,y,nearestenemy.x,nearestenemy.y)+180;
 	
 	bounce =1;
-	alarm[1] = 7.5;
-	hit_count++;
+	alarm[1] = 5.5;
+	player_health -= 20;
 	
 }
 else if (place_meeting(x,y,obj_goo)) //bounce back for goo
@@ -86,7 +86,7 @@ else if (place_meeting(x,y,obj_goo)) //bounce back for goo
 	{
 		instance_destroy();
 	}
-	hit_count++;
+	player_health -= 10;
 }
 if(bounce = 1) //set the speed of knockback and reset bounce
 {
@@ -94,7 +94,7 @@ if(bounce = 1) //set the speed of knockback and reset bounce
 	speed = 5;
 	bounce = 0;
 }
-if(hit_count >= 3) room_restart();
+if(player_health <=  0) room_restart();
 
 
 

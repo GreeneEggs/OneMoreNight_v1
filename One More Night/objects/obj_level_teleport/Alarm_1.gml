@@ -6,5 +6,5 @@
 
 for(i= 0; i<20; i++){
 	
-instance_create_depth(x+(i*5),room_height,layer,obj_skeleton);	
+instance_create_depth(x+(i*5),room_height,layer,obj_skeleton_film);	
 }
