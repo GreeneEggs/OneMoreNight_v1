@@ -1,4 +1,4 @@
-if (canattack == true) {mp_potential_step(obj_vault.x, obj_vault.y, 2, false);}
+if (canattack == true) {mp_potential_step(obj_vault.x, obj_vault.y, 1.5, false);}
 
 if (place_meeting(x,y,obj_bullet))
 {
@@ -20,7 +20,14 @@ if (place_meeting(x,y,obj_barb))
 	bounce =1;
 	hitcount+=1;
 }
-if (hitcount == 1)
+if (bounce == 1)
+{
+	alarm[0] = 5;
+	speed = 5;
+	bounce = 0;
+	canattack = false; //reset to follow player again
+}
+if (hitcount == 2)
 {
 	instance_destroy();
 }

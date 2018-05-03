@@ -27,7 +27,7 @@ if (bounce == 1)
 	bounce = 0;
 	canattack = false; //reset to follow player again
 }
-if (hitcount == 3)  //set hitcount; once it has been hit twice
+if (hitcount == 8)  //set hitcount; once it has been hit twice
 {
 	instance_destroy(); //destroy the object
 }

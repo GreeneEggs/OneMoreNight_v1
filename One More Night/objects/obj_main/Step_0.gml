@@ -66,7 +66,7 @@ if(place_meeting(x,y,obj_enemy) )
 	
 	bounce =1;
 	alarm[1] = 7.5;
-	hit_count++;
+	player_health -= 20;
 	
 }
 else if (place_meeting(x,y,obj_goo)) //bounce back for goo
@@ -82,7 +82,7 @@ else if (place_meeting(x,y,obj_goo)) //bounce back for goo
 	{
 		instance_destroy();
 	}
-	hit_count++;
+	player_health -= 10;
 }
 if(bounce = 1) //set the speed of knockback and reset bounce
 {
@@ -90,7 +90,7 @@ if(bounce = 1) //set the speed of knockback and reset bounce
 	speed = 5;
 	bounce = 0;
 }
-if(hit_count >= 3) room_restart();
+if(player_health <=  0) room_restart();
 
 
 

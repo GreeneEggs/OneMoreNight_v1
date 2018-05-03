@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_barb",
     "eventList": [
-        
+        {
+            "id": "d7379bdb-3b21-4b95-8a72-6d79cad24b14",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "c867af11-a3e4-4614-9cce-509c9c1defea"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -23,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "68dff7c6-14eb-4e59-aeaf-8996baeab207",
     "visible": true
 }

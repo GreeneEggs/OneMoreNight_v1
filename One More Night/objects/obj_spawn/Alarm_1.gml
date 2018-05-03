@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(instance_number(obj_enemy) <= 0 )
+if(instance_number(obj_enemy_path) <= 0 )
 {
 	spawn_count = 0;
 	spawn_amount++;
