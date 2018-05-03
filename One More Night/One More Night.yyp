@@ -191,11 +191,21 @@
             }
         },
         {
+
             "Key": "239d68d0-f77a-4903-9e66-092ed8500db7",
             "Value": {
                 "id": "dbebf241-182f-413a-b51c-51e713ee6331",
                 "resourcePath": "rooms\\room_dialouge4\\room_dialouge4.yy",
                 "resourceType": "GMRoom"
+                    }
+        },
+
+            "Key": "251595a6-89a8-47bb-86e3-bdecb469ddbf",
+            "Value": {
+                "id": "8b183766-ab29-42bc-ab07-e218e61dab75",
+                "resourcePath": "shaders\\shd_night\\shd_night.yy",
+                "resourceType": "GMShader"
+
             }
         },
         {
@@ -308,6 +318,14 @@
                 "id": "03524298-ebc4-40fe-8597-31e550d14552",
                 "resourcePath": "sprites\\spr_barb_h\\spr_barb_h.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2c0bda6d-0d4c-4263-86b1-58cc26f8d66e",
+            "Value": {
+                "id": "dbab61b0-0a48-4d29-a234-88351b6bb337",
+                "resourcePath": "objects\\obj_nightCycle\\obj_nightCycle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -839,6 +857,14 @@
             }
         },
         {
+            "Key": "9abd592b-404a-4445-8130-d6b0c65e6d55",
+            "Value": {
+                "id": "77654d79-6e47-4f47-99e6-a821175d1bf2",
+                "resourcePath": "sprites\\spr_player_back\\spr_player_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9dab7a4f-a975-41ea-809d-cf39552d9fed",
             "Value": {
                 "id": "fc9f6aa4-a50d-45bf-8da8-9cfdaf8abfdf",
@@ -978,7 +1004,9 @@
             "Key": "b16b7370-677a-4bff-a10b-a390f3eedc13",
             "Value": {
                 "id": "061e4531-9ebb-4e91-8f1e-fe2fbd4f44a9",
+
                 "resourcePath": "objects\\obj_fadeOut\\obj_fadeOut.yy",
+
                 "resourceType": "GMObject"
             }
         },
@@ -1180,6 +1208,14 @@
                 "id": "50645bdd-0314-4939-9845-c75f02d7cc84",
                 "resourcePath": "views\\d1f6e335-da04-4221-bdb0-da72371af5f9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d57e94e0-fcf7-49cb-adf8-23c94e33f6d5",
+            "Value": {
+                "id": "f9d126f4-e2bd-493c-8d9a-f0dac3ec2e0a",
+                "resourcePath": "sprites\\spr_player_front\\spr_player_front.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
