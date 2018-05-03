@@ -1,1 +1,0 @@
-//50 sec pause

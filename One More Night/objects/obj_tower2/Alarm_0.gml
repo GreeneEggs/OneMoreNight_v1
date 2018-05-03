@@ -6,11 +6,7 @@ if(instance_exists(objectToShoot))
 	bullet.speed = 10;
 	bullet.direction = point_direction(x,y,objectToShoot.x, objectToShoot.y);
 	alarm[0] = fire_rate;
-	bullets--;
 }else
 {
 	shooting = false;
-}if(bullets <= 0)
-{
-	instance_destroy();
 }

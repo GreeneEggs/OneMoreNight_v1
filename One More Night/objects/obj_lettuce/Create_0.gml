@@ -1,5 +1,6 @@
-/// @description Initial Variables
-// vars for bounce back, attack validation, and hitcount
-bounce = 0;
+/// @description Insert description here
+// You can write your code in this editor
+
 canattack = true;
 hitcount = 0;
+path_start(path1,2,0,1)
