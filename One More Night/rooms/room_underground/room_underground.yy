@@ -2,7 +2,7 @@
 {
     "name": "room_underground",
     "id": "b6737f35-27fc-4985-9738-5dc72bc64fcf",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
