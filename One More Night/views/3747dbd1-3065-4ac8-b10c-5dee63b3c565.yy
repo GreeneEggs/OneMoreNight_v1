@@ -6,7 +6,8 @@
     "children": [
         "cfbd3710-4184-4789-ba50-a70e60e6be80",
         "6f5d0fe4-5ca2-4877-8fbe-7a07a288b799",
-        "e8af0adc-40d0-4e56-a00d-168050a2c392"
+        "e8af0adc-40d0-4e56-a00d-168050a2c392",
+        "4b44e6c6-2f7f-4714-9c67-d8d27a2f06ef"
     ],
     "filterType": "GMObject",
     "folderName": "Decor",
