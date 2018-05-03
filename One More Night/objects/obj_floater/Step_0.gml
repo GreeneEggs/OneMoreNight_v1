@@ -23,8 +23,8 @@ if(en != noone)
 	}
 }
 
-if (hitcount == 2)  //set hitcount; once it has been hit twice
+if (hitcount == 15)  //set hitcount; once it has been hit twice
 {
 	instance_destroy(); //destroy the object
-	global.coins += 10;
+	global.coins += 50;
 }

@@ -7,4 +7,4 @@ hitcount = 0;
 skeletonSpeed = 1.5;
 
 
-path_start(path8,skeletonSpeed,0,1)
+path_start(path8,skeletonSpeed,0,1) // initial path, will jump to path upon creation

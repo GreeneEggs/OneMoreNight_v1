@@ -20,14 +20,14 @@ if (place_meeting(x,y,obj_barb))
 	bounce =1;
 	hitcount+=1;
 }
-if (bounce == 1)
+if (bounce == 1) //if hit, bounce
 {
 	alarm[0] = 5;
 	speed = 5;
 	bounce = 0;
 	canattack = false; //reset to follow player again
 }
-if (hitcount == 2)
+if (hitcount == 2)// after hits, die
 {
 	instance_destroy();
 	

@@ -21,8 +21,8 @@ if (bounce == 1)
 	bounce = 0;
 	canattack = false; //reset to follow player again
 }
-if (hitcount == 2)  //set hitcount; once it has been hit twice
+if (hitcount == 3)  //set hitcount; once it has been hit twice
 {
 	instance_destroy(); //destroy the object
-	global.coins += 10;
+	global.coins += 10; // coins upon death
 }

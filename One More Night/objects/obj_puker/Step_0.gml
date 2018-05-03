@@ -21,7 +21,7 @@ if (bounce == 1)
 	bounce = 0;
 	canattack = false;
 }
-if (hitcount == 3)
+if (hitcount == 4)
 {
 	instance_destroy();
 	global.coins += 20;
