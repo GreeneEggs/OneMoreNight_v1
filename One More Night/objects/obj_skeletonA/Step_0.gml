@@ -11,7 +11,7 @@ if (place_meeting(x,y,obj_bullet))
 	with(nearestbullet)
 	{
 		instance_destroy();
-		global.coins += 500;
+		global.coins += 5;
 	}
 }
 if (place_meeting(x,y,obj_barb))

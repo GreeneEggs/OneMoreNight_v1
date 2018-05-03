@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0a417dbe-0d0e-46f9-8e82-62b5ba027fc0",
+            "Value": {
+                "id": "0f86c198-9089-46f7-8d4e-6cc5c27a7c64",
+                "resourcePath": "objects\\obj_floater\\obj_floater.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d4e943b-a79f-4d2e-8640-45c1f9da9bf2",
             "Value": {
                 "id": "1bbda16d-cfd4-4a26-8043-ebc76461b917",
@@ -163,14 +171,6 @@
             "Value": {
                 "id": "fe992dd9-714f-4aeb-9dd6-1bffd2d5df40",
                 "resourcePath": "objects\\obj_floater_cutscene\\obj_floater_cutscene.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "22fe057f-5df4-41a9-bf92-a4eda9182423",
-            "Value": {
-                "id": "8c50c319-a883-4e7d-a88f-47b81be623dd",
-                "resourcePath": "objects\\obj_floater\\obj_floater.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -748,6 +748,14 @@
                 "id": "eea390eb-ba20-4bd1-b999-aa8f45f19d02",
                 "resourcePath": "objects\\obj_border\\obj_border.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "85fdc513-df44-40d4-92cd-cf9a11e4865c",
+            "Value": {
+                "id": "04b03bbb-f3b8-4d58-9323-dc319cdd86b3",
+                "resourcePath": "scripts\\mouseOver\\mouseOver.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1392,7 +1400,7 @@
         }
     ],
     "script_order": [
-        
+        "85fdc513-df44-40d4-92cd-cf9a11e4865c"
     ],
     "tutorial": ""
 }

@@ -65,7 +65,7 @@ if(place_meeting(x,y,obj_enemy) )
 	direction = point_direction(x,y,nearestenemy.x,nearestenemy.y)+180;
 	
 	bounce =1;
-	alarm[1] = 7.5;
+	alarm[1] = 5.5;
 	player_health -= 20;
 	
 }

@@ -18,3 +18,12 @@ draw_sprite_ext(sprite_index,image_index,x,y,facing,1,0,c_white,1);
 /// @DnDArgument : "mincol" "$FF1313C1"
 /// @DnDArgument : "maxcol" "$FF0FFF13"
 draw_healthbar(928, 48, 992, 64, player_health, $FF000000 & $FFFFFF, $FF1313C1 & $FFFFFF, $FF0FFF13 & $FFFFFF, 0, (($FF000000>>24) != 0), (($FFFFFFFF>>24) != 0));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 2121797C
+/// @DnDArgument : "x" "911"
+/// @DnDArgument : "y" "96"
+/// @DnDArgument : "caption" ""Coins: ""
+/// @DnDArgument : "var" "global.coins"
+draw_text(911, 96, string("Coins: ") + string(global.coins));

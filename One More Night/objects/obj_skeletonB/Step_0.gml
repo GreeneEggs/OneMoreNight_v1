@@ -11,7 +11,7 @@ if (place_meeting(x,y,obj_bullet))
 	with(nearestbullet)
 	{
 		instance_destroy();
-		global.coins += 500;
+		global.coins += 05;
 	}
 }
 if (place_meeting(x,y,obj_barb))
@@ -30,4 +30,5 @@ if (bounce == 1)
 if (hitcount == 2)
 {
 	instance_destroy();
+	
 }

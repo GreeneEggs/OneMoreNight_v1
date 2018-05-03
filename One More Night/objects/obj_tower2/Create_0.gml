@@ -4,3 +4,4 @@ range = 600;
 fire_rate = room_speed / .5 ; 
 shooting = false;
 objectToShoot = noone;
+bullets = 50;

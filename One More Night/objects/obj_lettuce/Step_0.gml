@@ -11,7 +11,7 @@ if (place_meeting(x,y,obj_bullet)) //When hit by bullet
 	with(nearestbullet)
 	{
 		instance_destroy();		//destroy bullet
-		global.coins += 10;
+		
 	}
 }
 if (bounce == 1)
@@ -24,4 +24,5 @@ if (bounce == 1)
 if (hitcount == 2)  //set hitcount; once it has been hit twice
 {
 	instance_destroy(); //destroy the object
+	global.coins += 10;
 }
