@@ -12,4 +12,5 @@ if(place_meeting(x,y, obj_enemy_path))
 if(hitcount == 5)
 {
 	instance_destroy();
+	global.coins += 5;
 }

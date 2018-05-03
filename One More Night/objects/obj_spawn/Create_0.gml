@@ -9,6 +9,4 @@ global.coins = 100;
 global.level = 1;
 global.spd = 1;
 wave = 1;
-timeline_index = tm_W1;
-timeline_running = true;
-timeline_speed = 1;
+alarm[2] = 1800;

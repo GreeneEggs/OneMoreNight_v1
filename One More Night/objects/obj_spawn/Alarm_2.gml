@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-range = 2500;
-objectToChase = noone;
-bounce = 0;
-canattack = true;
-hitcount = 0;
+timeline_index = tm_W1;
+timeline_running = true;
+timeline_speed = 1;

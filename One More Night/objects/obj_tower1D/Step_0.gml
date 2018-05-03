@@ -4,4 +4,4 @@ x = mouse_x;
 y = mouse_y;
 
 if(!place_meeting(x,y,obj_towerbase) or place_meeting(x,y,obj_Tower_Parent)) col = c_red;
-else col = c_white;
+else{ col = c_white;}
