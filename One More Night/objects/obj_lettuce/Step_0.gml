@@ -23,6 +23,7 @@ if (bounce == 1)
 }
 if (hitcount == 2)  //set hitcount; once it has been hit twice
 {
+	audio_play_sound(snd_yelp,0,0);
 	instance_destroy(); //destroy the object
 	global.coins += 10;
 }

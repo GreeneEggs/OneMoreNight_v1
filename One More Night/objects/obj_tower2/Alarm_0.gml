@@ -7,6 +7,7 @@ if(instance_exists(objectToShoot))
 	bullet.direction = point_direction(x,y,objectToShoot.x, objectToShoot.y);
 	alarm[0] = fire_rate;
 	bullets--;
+	audio_play_sound(snd_sniper,0,0);
 }else
 {
 	shooting = false;

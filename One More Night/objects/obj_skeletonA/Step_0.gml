@@ -29,5 +29,6 @@ if (bounce == 1)
 }
 if (hitcount == 2)
 {
+	audio_play_sound(snd_bones,0,0);
 	instance_destroy();
 }

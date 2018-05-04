@@ -23,6 +23,7 @@ if (bounce == 1)
 }
 if (hitcount == 3)
 {
+	audio_play_sound(snd_dead_splat,0,0);
 	instance_destroy();
 	global.coins += 20;
 }
